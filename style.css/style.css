@@ -1,0 +1,179 @@
+*{
+    marg;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-primary {
+color: #FD6;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 70px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 110px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    }
+nav li {
+    list-style: none;
+    margin: 50px;
+   }
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    background-color: rgb(102, 117, 255);
+    height: 60px;
+    border-radius: 6px;
+}
+.baner {
+    margin: 0 100px;
+ align-items: center;
+ display: flex;
+    
+}
+.titel-1{
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: 600;
+    
+
+}
+.titel-2{
+    color: aqua ;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.header{
+    background-color: #FFF8F3;
+   background-image: url('../image/header_bg.png'),url('../image/developer.png');
+   background-repeat: no-repeat;
+   background-position: bottom right , left;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.s-title{
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 55px;
+}
+.s-des{
+    color: #757575;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.aout-info-con{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    font-size: 20px;
+    color: #757575;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* what id style */
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.sec-title{
+    font-size: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.skill{
+    background: #FFFF;
+    box-shadow: 0px 6px 50px rgba(0,0, 0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+/* resume */
+.resume{
+    display: flex;
+}
+.resome-title{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 130px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    color: #070707;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.desc{
+    color: #757575;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer */
+.contect{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 30px 200px;
+    margin-top: 80px;
+}
+.contect input[type="text"], input[type="email"], textarea{
+    margin-bottom: 14px;
+    width: 100%;
+    border: 0;
+    padding: 10px 30px;
+}
+.contect a {
+    text-decoration: none;
+    
+}
