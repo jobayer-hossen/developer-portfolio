@@ -14,7 +14,7 @@ color: #FD6;
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 110px;
+    padding: 50px 110px;
 }
 nav ul {
     display: flex;
